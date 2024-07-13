@@ -1,0 +1,5 @@
+{
+    "watch": ["src"],
+    "ext": "js,json,tsx,ts,css,scss",
+    "exec": "npm run build && npm run start"
+}

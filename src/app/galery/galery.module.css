@@ -1,0 +1,55 @@
+.h3{
+    font-weight: bold;
+    align-items: start;
+    display: flex;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.span{
+    align-items: start;
+    display: flex;
+    color: #fff;
+}
+
+.card {
+    background-color: #4a4a4a;
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #eaeaea;
+    font-family: Arial, sans-serif;
+    display: block;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.icon {
+    background-color: #2e2e2e;
+    padding: 20px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.icon .img {
+    width: 50px;
+    height: 50px;
+}
+
+.text h3 {
+    margin: 10px 0 5px 0;
+    font-size: 18px;
+}
+
+.text p {
+    margin: 0;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.all{
+    display: flex;
+}

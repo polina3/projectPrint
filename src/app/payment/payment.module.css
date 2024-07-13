@@ -1,0 +1,16 @@
+.grup{
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+}
+
+.h3{
+    color: #fff;
+    text-align: center;
+}
+
+.span{
+    color: #ffffffc0;
+    text-align: center;
+    text-decoration: underline;
+}

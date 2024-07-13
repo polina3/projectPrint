@@ -1,0 +1,31 @@
+.Text{
+    display: flex;
+    color: #fff;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.weight{
+    font-weight: bold;
+    display: flex;
+    color: #fff;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.imagephoto .img{
+    display: flex;
+    align-items: flex-start;
+}
+
+.imagephoto .Text{
+    display: flex;
+    align-items: flex-end;
+}
+
+.justtext{
+    text-align: justify;
+    display: flex;
+}
