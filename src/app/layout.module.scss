@@ -14,33 +14,31 @@
 }
 
 .header{
-  background-color: #f1f1f1;
+  background-color: #f1f1f1ab;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   border-radius: 18px;
   max-width: $mainWidth;
   margin: 0 auto;
+  backdrop-filter: blur(4px);
 }
 
 .ul{
   list-style: none;
-  display: flex;
-  gap: 10px;
+  display: flex; 
 }
 
-.ul .li{
-  cursor: pointer;
-}
-
-.li .a{
+.nav_link{
   text-decoration: none;
-  color: black;
+  color: $textColorBlack; 
+  padding: 20px 10px;
+  display: block;
 }
 
-.li.a.active{
-  border-bottom: 2px solid black;
-}
+// .li.a.active{
+//   border-bottom: 2px solid $textColorBlack;
+// }
 
 .btnBuy{
   background-color: #000;
