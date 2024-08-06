@@ -1,7 +1,9 @@
 .grup{
     align-items: center;
     justify-content: center;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
 }
 
 .h3{
@@ -9,7 +11,7 @@
     text-align: center;
 }
 
-.span{
+.a{
     color: #ffffffc0;
     text-align: center;
     text-decoration: underline;

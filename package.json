@@ -5,11 +5,13 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -p 3034",
+    "start": "next start -p 3072",
     "lint": "next lint",
     "dev:watch": "nodemon"
   },
   "dependencies": {
+    "antd": "^5.19.4",
+    "axios": "^1.7.3",
     "next": "14.2.4",
     "react": "^18",
     "react-dom": "^18",

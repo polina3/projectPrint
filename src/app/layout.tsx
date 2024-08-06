@@ -3,7 +3,9 @@ import styles from "./layout.module.scss";
 import './globals.scss'
 import Script from 'next/script'
 import Link from "next/link"; 
-import {montserrat} from './constant/fonts'
+import {montserrat} from '../constant/fonts'
+import Button from "@/components/Button/Button";
+import Select from "@/components/Select/Select";
 
 
 export const metadata: Metadata = {
@@ -22,7 +24,7 @@ export default function RootLayout(props: TypeProps) {
           <header className={styles.header}>
             <nav>
               <ul className={styles.ul}>
-                <li><Link className={styles.nav_link} href="/first">Главная</Link></li>
+                <li><Link className={styles.nav_link} href="/">Главная</Link></li>
                 <li><Link className={styles.nav_link} href="/about">О нас</Link></li>
                 <li><Link className={styles.nav_link} href="/where">Где забрать</Link></li>
                 <li><Link className={styles.nav_link} href="/services">Услуги</Link></li>
@@ -30,14 +32,16 @@ export default function RootLayout(props: TypeProps) {
               </ul>
             </nav>
             <div className={styles.rightSide} >
+            <p>languages are not connected -&gt;</p>
               <div className={styles.language}>
                 <span>RU</span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                   <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
                 </svg>
               </div>
-              <button className={styles.btnBuy}>Заказать</button>
-              <button className={styles.btnLogin}>Вход</button>
+              <Button type='link' variant='primary' href="calculator" >Заказать</Button>
+              <Button type='link' variant='default' href="register" >Регистрироваться</Button>
+              <Button type='link' variant='default' href="login" >Войти</Button>
             </div>
           </header>
         </div>
@@ -45,9 +49,6 @@ export default function RootLayout(props: TypeProps) {
           {props.children}
         </main>
         <footer></footer>
-        <>
-          <Script src="./script.js" />
-        </>
       </body>
     </html>
   );

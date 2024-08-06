@@ -1,0 +1,18 @@
+@use "../../constant/_variables.scss" as *;
+
+@mixin mixinDef {
+    outline: none;
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: $textColorBlack;
+    font-size: $textSize;
+    border-radius: 12px;
+
+}
+
+.underline{
+    @include mixinDef;
+    text-decoration: underline;
+}
+

@@ -1,0 +1,39 @@
+@use "../../constant/_variables.scss" as *;
+
+@mixin mixinDef {
+    outline: none;
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: $textColorBlack;
+    font-size: $textSize;
+    border-radius: 8px;
+    padding: 20px 10px;
+    display: block
+}
+
+.default {
+    @include mixinDef;
+    background-color: #636363;
+    color: #fff; 
+    display: flex;
+    gap: 5px;
+    border: none;
+    padding: 5px;
+    width: min-content;
+    height: min-content;
+    margin-right: 5px;
+}
+
+.primary {
+    @include mixinDef;
+    background-color: #000;
+    color: #fff; 
+    display: flex;
+    gap: 5px;
+    border: none;
+    padding: 5px;
+    width: min-content;
+    height: min-content;
+    margin-right: 5px;
+}

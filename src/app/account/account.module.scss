@@ -1,0 +1,98 @@
+/* styles/Profile.module.css */
+.profile {
+    padding: 20px;
+    background-color: #9d9d9d;
+    color: #fff;
+
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    background: #D9D9D9;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.info {
+    margin-top: 20px;
+}
+
+.info .h2 {
+    margin: 0;
+}
+
+.info .a {
+    color: #ffa500;
+}
+
+.info .ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info .ul .li {
+    margin: 10px 0;
+}
+
+.li1{
+    font-weight: 600;
+}
+
+.order {
+    background: #444;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.header, .details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    background: #ffa500;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.ordersInProgress {
+    background: #444;
+    color: #fff;
+    padding: 20px;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.steps .div {
+    padding: 10px;
+    background: #555;
+    border-radius: 50%;
+}
+
+.steps .active {
+    background: #ffa500;
+}
+
+.contents {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contents div {
+    background: #555;
+    padding: 20px;
+    width: 45%;
+    text-align: center;
+}
